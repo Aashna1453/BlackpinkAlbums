@@ -1,0 +1,53 @@
+form{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.formgroup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.field>div{
+    width: 100%;
+}
+.field input{
+    width:100%;
+    padding: .6rem;
+}
+.field label{
+    font-size: 1.2rem ;
+    margin-right: auto;
+}
+
+.link{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    font-size: 1.2rem;
+    transition: .3s ease-in-out;
+    border-radius: 5px;
+}
+.link:hover{
+    background-color: brown;
+    cursor: pointer;
+}
